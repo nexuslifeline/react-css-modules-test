@@ -10,3 +10,11 @@
 .body__image {
     outline: 5px solid blue;
 }
+
+:global {
+    .image__caption {
+        width: 260px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+}
